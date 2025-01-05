@@ -1,0 +1,119 @@
+/* Fondo general de la página */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título centrado en cada página */
+.centered-title {
+  text-align: center;
+  font-size: 48px;
+  color: #ff0000;
+  margin-bottom: 30px;
+}
+
+/* Diseño de la tier list */
+.tier-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.tier {
+  width: 30%;
+  background-color: #ff0000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px #ff0000;
+}
+
+.tier h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+/* Estilo de los héroes */
+.tier ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tier li {
+  background-color: #000;
+  color: #ff0000;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+.tier li:hover {
+  background-color: #ff4d4d;
+}
+
+/* Botón para agregar héroes */
+.add-hero-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-hero-btn:hover {
+  background-color: #ff4d4d;
+}
+
+/* Estilo del botón para eliminar el último héroe */
+.remove-hero-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.remove-hero-btn:hover {
+  background-color: #ff4d4d;
+}
+
+/* Estilo del índice */
+.index-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.index-list a {
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 26px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.index-list a::before {
+  content: "•";
+  color: #ff0000;
+  font-size: 32px;
+  position: absolute;
+  left: -30px;
+}

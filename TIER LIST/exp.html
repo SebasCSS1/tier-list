@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="centered-title">EXP</h1>
+
+  <div class="tier-list">
+    <!-- OP Tier -->
+    <div class="tier op">
+      <h2>OP</h2>
+      <ul id="exp-op"></ul>
+      <button class="add-hero-btn" data-tier="exp-op">Agregar Héroe</button>
+      <button class="remove-hero-btn" data-tier="exp-op">Eliminar Último Héroe</button>
+    </div>
+
+    <!-- Good Tier -->
+    <div class="tier good">
+      <h2>Good</h2>
+      <ul id="exp-good"></ul>
+      <button class="add-hero-btn" data-tier="exp-good">Agregar Héroe</button>
+      <button class="remove-hero-btn" data-tier="exp-good">Eliminar Último Héroe</button>
+    </div>
+
+    <!-- Standard Tier -->
+    <div class="tier standard">
+      <h2>Standard</h2>
+      <ul id="exp-standard"></ul>
+      <button class="add-hero-btn" data-tier="exp-standard">Agregar Héroe</button>
+      <button class="remove-hero-btn" data-tier="exp-standard">Eliminar Último Héroe</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
